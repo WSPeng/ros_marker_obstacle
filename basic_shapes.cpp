@@ -88,13 +88,13 @@ int main( int argc, char** argv )
 // %Tag(SCALE)%
     marker.scale.x = 0.1f;
     marker.scale.y = 0.05f;
-    marker.scale.z = 0.9f;
+    marker.scale.z = 0.5f;
 // %EndTag(SCALE)%
 
     // Set the color -- be sure to set alpha to something non-zero!
 // %Tag(COLOR)%
     marker.color.r = 0.0f;
-    marker.color.g = 0.0f;
+    marker.color.g = 1.0f;
     marker.color.b = 0.0f;
     marker.color.a = 1.0f;
 // %EndTag(COLOR)%
