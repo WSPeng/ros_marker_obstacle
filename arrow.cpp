@@ -75,9 +75,9 @@ int main( int argc, char** argv )
 
     // Set the pose of the marker.  This is a full 6DOF pose relative to the frame/time specified in the header
 // %Tag(POSE)%
-    marker.pose.position.x = -0.45;
-    marker.pose.position.y = -0.425;
-    marker.pose.position.z = 0.275;
+    marker.pose.position.x = -0.39f;
+    marker.pose.position.y = -0.425f;
+    marker.pose.position.z = 0.256f;
     marker.pose.orientation.x = -1.0;
     marker.pose.orientation.y = -1.0;
     marker.pose.orientation.z = 0.0;

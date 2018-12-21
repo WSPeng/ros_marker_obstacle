@@ -75,9 +75,9 @@ int main( int argc, char** argv )
 
     // Set the pose of the marker.  This is a full 6DOF pose relative to the frame/time specified in the header
 // %Tag(POSE)%
-    marker.pose.position.x = -0.45f + 0.1f;
-    marker.pose.position.y = +0.15f;
-    marker.pose.position.z = 0.266f - 0.1f;
+    marker.pose.position.x = -0.39f + 0.20f;
+    marker.pose.position.y =  0.20f;//-0.415f + 0.425f - 0.20f;
+    marker.pose.position.z = 0.256f - 0.1f;
     marker.pose.orientation.x = 0.0f;
     marker.pose.orientation.y = 0.0f;
     marker.pose.orientation.z = 0.0f;
@@ -86,8 +86,8 @@ int main( int argc, char** argv )
 
     // Set the scale of the marker -- 1x1x1 here means 1m on a side
 // %Tag(SCALE)%
-    marker.scale.x = 0.15f;
-    marker.scale.y = 0.1f;
+    marker.scale.x = 0.20f;
+    marker.scale.y = 0.07f;
     marker.scale.z = 0.5f;
 // %EndTag(SCALE)%
 
